@@ -30,6 +30,7 @@ Este proyecto implementa un reloj binario utilizando un **Arduino Nano** y un **
 2. En el IDE de Arduino, seleccionar el procesador **"ATmega328P (Old Bootloader)"**
 3. Cargar el código **BinaryClock.ino** al Arduino
 4. Conectar los LEDs y botones según la configuración de pines
+5. Si el RTC ha perdido alimentación, se sincroniza con la hora del sistema automáticamente
 
 ## Funcionamiento
 - **Ajuste de Hora:** Presionar el botón de horas para incrementar la hora
